@@ -11,14 +11,14 @@ insert into Editora (nome) values ('Editora C');
 insert into Editora (nome) values ('Editora D');
 insert into Editora (nome) values ('Editora E');
 -- Livro
-insert into Livro (titulo, autor, anoPunlicacao, isbn, editora_codigo) values ('Livro 1', 'Autor 1', 2020, 'ISBN001', 1);
-insert into Livro (titulo, autor, anoPunlicacao, isbn, editora_codigo) values ('Livro 2', 'Autor 2', 2019, 'ISBN002', 2);
-insert into Livro (titulo, autor, anoPunlicacao, isbn, editora_codigo) values ('Livro 3', 'Autor 3', 2021, 'ISBN003', 3);
-insert into Livro (titulo, autor, anoPunlicacao, isbn, editora_codigo) values ('Livro 4', 'Autor 4', 2018, 'ISBN004', 4);
-insert into Livro (titulo, autor, anoPunlicacao, isbn, editora_codigo) values ('Livro 5', 'Autor 5', 2022, 'ISBN005', 5);
+insert into Livro (titulo, autor, anoPunblicacao, isbn, editora_id) values ('Livro 1', 'Autor 1', 2020, 'ISBN001', 1);
+insert into Livro (titulo, autor, anoPunblicacao, isbn, editora_id) values ('Livro 2', 'Autor 2', 2019, 'ISBN002', 2);
+insert into Livro (titulo, autor, anoPunblicacao, isbn, editora_id) values ('Livro 3', 'Autor 3', 2021, 'ISBN003', 3);
+insert into Livro (titulo, autor, anoPunblicacao, isbn, editora_id) values ('Livro 4', 'Autor 4', 2018, 'ISBN004', 4);
+insert into Livro (titulo, autor, anoPunblicacao, isbn, editora_id) values ('Livro 5', 'Autor 5', 2022, 'ISBN005', 5);
 -- Emprestimo
-insert into Emprestimo (dataEmprestimo, dataDevolucao, livro_codigo, usuario_codigo) values ('2023-10-01', '2023-10-15', 1, 1);
-insert into Emprestimo (dataEmprestimo, dataDevolucao, livro_codigo, usuario_codigo) values ('2023-10-05', '2023-10-20', 2, 2);
-insert into Emprestimo (dataEmprestimo, dataDevolucao, livro_codigo, usuario_codigo) values ('2023-10-10', '2023-10-25', 3, 3);
-insert into Emprestimo (dataEmprestimo, dataDevolucao, livro_codigo, usuario_codigo) values ('2023-10-12', '2023-10-27', 4, 4);
-insert into Emprestimo (dataEmprestimo, dataDevolucao, livro_codigo, usuario_codigo) values ('2023-10-15', '2023-10-30', 5, 5);
+insert into Emprestimo (dataEmprestimo, dataDevolucao, livro_id, usuario_id) values ('2023-10-01', '2023-10-15', 1, 1);
+insert into Emprestimo (dataEmprestimo, dataDevolucao, livro_id, usuario_id) values ('2023-10-05', '2023-10-20', 2, 2);
+insert into Emprestimo (dataEmprestimo, dataDevolucao, livro_id, usuario_id) values ('2023-10-10', '2023-10-25', 3, 3);
+insert into Emprestimo (dataEmprestimo, dataDevolucao, livro_id, usuario_id) values ('2023-10-12', '2023-10-27', 4, 4);
+insert into Emprestimo (dataEmprestimo, dataDevolucao, livro_id, usuario_id) values ('2023-10-15', '2023-10-30', 5, 5);
